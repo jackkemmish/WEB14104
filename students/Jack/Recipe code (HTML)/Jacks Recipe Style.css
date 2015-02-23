@@ -1,0 +1,64 @@
+body {
+    font-family: ubuntu;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1 {
+    color: orange; 
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h3 {
+    color: orange;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+    background: linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+}
+
+ul, ol {
+    font-size: 1.2em;
+}
+
+li {
+    padding: 6px;
+
+}
+
+img {
+    opacity: 0.3;
+    width: 55%;
+    
+}
+
+img:hover {
+    opacity: 100;
+    filter: alpha(opacity=100);
+    transform: scale(1.1);
+    transition: transform .25s ease;
+    -webkit-box-shadow: 0 10px 6px -6px grey;
+	   -moz-box-shadow: 0 10px 6px -6px grey;
+	        box-shadow: 0 10px 6px -6px grey;
+}
+
+input {
+    display: inline-block;
+    float: right;
+    margin-right: 300px;
+}
+
+.milk {
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+}
+
+footer {
+    font-size: 10px;
+    text-align: right;
+}

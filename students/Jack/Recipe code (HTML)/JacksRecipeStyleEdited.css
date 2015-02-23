@@ -1,0 +1,82 @@
+body {
+  font-family: ubuntu;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+h1 {
+  color: orange;
+  font-size: 91px;
+  line-height: 96px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+h2 {
+  color: orange;
+  font-size: 54px;
+  line-height: 64px;
+  margin-top: 64px;
+  margin-bottom: 32px;
+}
+h3 {
+  color: orange;
+  font-size: 32px;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+h4 {
+  color: orange;
+  font-size: 19px;
+  line-height: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
+img {
+    opacity: 0.3;
+    width: 55%;
+    
+}
+
+img:hover {
+    opacity: 100;
+    filter: alpha(opacity=100);
+    transform: scale(1.1);
+    transition: transform .25s ease;
+    -webkit-box-shadow: 0 10px 6px -6px grey;
+	   -moz-box-shadow: 0 10px 6px -6px grey;
+	        box-shadow: 0 10px 6px -6px grey;
+}
+
+input {
+    display: inline-block;
+    float: right;
+    margin-right: 300px;
+}
