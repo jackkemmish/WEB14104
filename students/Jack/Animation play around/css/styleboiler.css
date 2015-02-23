@@ -27,7 +27,7 @@ text-decoration: none;
 background: #1CB9FC;
 color: white;
 padding: .5em;
-border-radius: .5em;
+border-radius: 1em;
 display: block;
 text-align: center;
 font-size: 1.1em;
@@ -57,5 +57,5 @@ background: #5DCDFC;
 img:hover {
 opacity: 100;
 transition: 1s;
--webkit-animation: swing 1.8s;
+-webkit-animation: bounce 1.8s;
 }
