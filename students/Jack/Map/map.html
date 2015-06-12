@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Basic Animation Coding</title>
+        <meta name="This is my basic coding animation example" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        
+        
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/map.css">
+        
+    </head>
+    <body>
+        
+        
+        <div id="map-canvas"></div>
+
+        
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        
+        <script>
+            function initialize() {
+            // get a reference to the HTML element
+            var mapCanvas = document.getElementById('map-canvas');
+        
+            // customise the map
+            var mapOptions = {
+            center: new google.maps.LatLng(51.501780, 0.005589),
+            zoom: 14,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        
+            var map = new google.maps.Map(mapCanvas, mapOptions);   
+    }
+            
+        google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        
+        
+    </body>
+</html>

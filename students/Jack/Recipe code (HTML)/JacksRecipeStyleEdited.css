@@ -4,6 +4,7 @@ body {
   line-height: 32px;
   max-width: 760px;
   margin: 0 auto;
+  padding: 0;
 }
 h1 {
   color: orange;
@@ -62,6 +63,7 @@ sub {
 img {
     opacity: 0.3;
     width: 55%;
+    border-radius: 50%;
     
 }
 
